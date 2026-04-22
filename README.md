@@ -60,6 +60,7 @@ cp -r case-method-skill/.claude/commands/case-method ~/.claude/commands/
 **项目级**（仅当前项目可用）：
 
 ```bash
+git clone https://github.com/ChauMingTsun-lab/case-method-skill.git
 cp -r case-method-skill/case-method <your-project>/.claude/skills/
 cp -r case-method-skill/.claude/commands/case-method <your-project>/.claude/commands/
 ```
