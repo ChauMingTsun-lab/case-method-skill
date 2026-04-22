@@ -1,0 +1,33 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# Python (若未来加入 scripts/)
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Claude Code 本地缓存
+.claude/local/
+.claude/cache/
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+
+# 版权原始材料（本 repo 不应包含 PDF 等原始学术文献）
+*.pdf
+
+# Skill 打包产物（作为 GitHub Release asset 分发，不进 git 历史）
+dist/
+*.skill
